@@ -5,7 +5,7 @@ BlockBase is a blockchain-based expense tracking and debt management application
 ![Alt-Text](https://github.com/vivek16-mdev/Expense_Tracker_FECIITG/blob/main/Screenshot%202025-04-20%20221225.png)
 ## Feature Implemented
 -Get total number of registered people
-``` 
+``` solidity
 function isUserRegistered(address _addr) public view returns (bool) {
      return people[_addr].walletAddress != address(0);
  }
